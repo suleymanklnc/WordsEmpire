@@ -1,0 +1,842 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    width: 20px;
+    /* width of the entire scrollbar */
+
+}
+
+body::-webkit-scrollbar-track {
+    background: #151418;
+    /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #151418;
+    /* color of the scroll thumb */
+    border-radius: 10px;
+    /* roundness of the scroll thumb */
+    border: 3px solid #151418;
+    /* creates padding around scroll thumb */
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+    background-color: #151418;
+}
+
+/*---------------------cards---------------------------*/
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #151418;
+    width: 100%;
+}
+
+.title{
+    display: flex;
+    color: white;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;    
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #151418;
+    margin: 1rem;
+    width: 100%;
+    text-align: center;
+
+}
+
+h3 {
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+    color: white;
+    letter-spacing: 2px;
+    margin-top: 1rem;
+}
+
+p {
+    padding: 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+
+.tooltip {
+    position: absolute;
+    display: none;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+
+
+
+/*-----------------------CARD 1------------------------*/
+.card1 {
+    width: 300px;
+    height: 300px;
+    background-color: #a62121;
+    transition: transform 0.3s ease-in-out;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+
+.card1 svg {
+    background-image: url(images/normal-tree-plants.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 45%;
+}
+
+.card1:hover .tooltip {
+    display: block;
+}
+
+/*-----------------------CARD 1------------------------*/
+
+
+/*-----------------------CARD 2------------------------*/
+.card2 {
+    width: 300px;
+    height: 300px;
+    background-color: #a62121;
+    transition: transform 0.3s ease-in-out;
+    margin: 1rem;
+    border-radius: 10px;
+
+}
+
+
+.card2 svg {
+    background-image: url(images/acacia-tree-plants.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+}
+
+.card2:hover .tooltip {
+    display: block;
+}
+
+/*-----------------------CARD 2------------------------*/
+
+
+
+/*-----------------------CARD 3------------------------*/
+.card3 {
+    width: 300px;
+    height: 300px;
+    background-color: #a62121;
+    transition: transform 0.3s ease-in-out;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+
+.card3 svg {
+    background-image: url(images/oak-tree-plants.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
+
+.card3:hover .tooltip {
+    display: block;
+}
+
+/*-----------------------CARD 3-----------------------*/
+
+
+/*-----------------------CARD 4------------------------*/
+.card4 {
+    width: 300px;
+    height: 300px;
+    background-color: #a62121;
+    transition: transform 0.3s ease-in-out;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+
+.card4 svg {
+    background-image: url(images/plane-tree-plants.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
+
+.card4:hover .tooltip {
+    display: block;
+}
+
+/*-----------------------CARD 4-----------------------*/
+
+
+
+/*-----------------------CARD 5------------------------*/
+.card5 {
+    width: 300px;
+    height: 300px;
+    background-color: #a62121;
+    transition: transform 0.3s ease-in-out;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+
+.card5 svg {
+    background-image: url(images/willow-tree-plants.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+}
+
+.card5:hover .tooltip {
+    display: block;
+}
+
+/*-----------------------CARD 5-----------------------*/
+
+
+/*-----------------------CARD 6------------------------*/
+.card6 {
+    width: 300px;
+    height: 300px;
+    background-color: #a62121;
+    transition: transform 0.3s ease-in-out;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+
+.card6 svg {
+    background-image: url(images/pine-tree-plants.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+
+.card6:hover .tooltip {
+    display: block;
+}
+
+/*-----------------------CARD 6-----------------------*/
+
+
+/*-----------------------CARD 7------------------------*/
+.card7 {
+    width: 300px;
+    height: 300px;
+    background-color: #a62121;
+    transition: transform 0.3s ease-in-out;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+
+.card7 svg {
+    background-image: url(images/palm-tree-plants.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+
+.card7:hover .tooltip {
+    display: block;
+}
+
+/*-----------------------CARD 7-----------------------*/
+
+
+
+/*-----------------------CARD 8-----------------------*/
+.card8 {
+    width: 300px;
+    height: 300px;
+    background-color: #a62121;
+    transition: transform 0.3s ease-in-out;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+
+.card8 svg {
+    background-image: url(images/Branch-dal-plants.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%;
+}
+
+.card8:hover .tooltip {
+    display: block;
+}
+
+/*-----------------------CARD 8-----------------------*/
+
+
+/*-----------------------CARD 9----------------------*/
+.card9 {
+    width: 300px;
+    height: 300px;
+    background-color: yellowgreen;
+    transition: transform 0.3s ease-in-out;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+
+.card9 svg {
+    background-image: url(images/twig-incedal-plants.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.card9:hover .tooltip {
+    display: block;
+}
+
+/*-----------------------CARD 9----------------------*/
+
+
+/*-----------------------CARD 10----------------------*/
+.card10 {
+    width: 300px;
+    height: 300px;
+    background-color: #a62121;
+    transition: transform 0.3s ease-in-out;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+
+.card10 svg {
+    background-image: url(images/Pine-cone-cam-kozalagı-plants.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+
+.card10:hover .tooltip {
+    display: block;
+}
+
+/*-----------------------CARD 10----------------------*/
+
+
+/*-----------------------CARD 11----------------------*/
+.card11 {
+    width: 300px;
+    height: 300px;
+    background-color: #a62121;
+    transition: transform 0.3s ease-in-out;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+
+.card11 svg {
+    background-image: url(images/thorn-diken-plants.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+}
+
+.card11:hover .tooltip {
+    display: block;
+}
+
+/*-----------------------CARD 11----------------------*/
+
+
+
+/*-----------------------CARD 12----------------------*/
+.card12 {
+    width: 300px;
+    height: 300px;
+    background-color: #a62121;
+    transition: transform 0.3s ease-in-out;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+
+.card12 svg {
+    background-image: url(images/leaf-plants.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+}
+
+.card12:hover .tooltip {
+    display: block;
+}
+
+/*-----------------------CARD 12---------------------*/
+
+
+/*-----------------------CARD 13----------------------*/
+.card13 {
+    width: 300px;
+    height: 300px;
+    background-color: #a62121;
+    transition: transform 0.3s ease-in-out;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+
+.card13 svg {
+    background-image: url(images/Shrub-plants.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+
+.card13:hover .tooltip {
+    display: block;
+}
+
+/*-----------------------CARD 13---------------------*/
+
+
+/*-----------------------CARD 14----------------------*/
+.card14 {
+    width: 300px;
+    height: 300px;
+    background-color: #a62121;
+    transition: transform 0.3s ease-in-out;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+
+.card14 svg {
+    background-image: url(images/grass-plants.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.card14:hover .tooltip {
+    display: block;
+}
+
+/*-----------------------CARD 14---------------------*/
+
+
+
+/*-----------------------CARD 15----------------------*/
+.card15 {
+    width: 300px;
+    height: 300px;
+    background-color: #a62121;
+    transition: transform 0.3s ease-in-out;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+
+.card15 svg {
+    background-image: url(images/moss-plants.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+}
+
+.card15:hover .tooltip {
+    display: block;
+}
+
+/*-----------------------CARD 15---------------------*/
+
+
+/*-----------------------CARD 16----------------------*/
+.card16 {
+    width: 300px;
+    height: 300px;
+    background-color: royalblue;
+    transition: transform 0.3s ease-in-out;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+
+.card16 svg {
+    background-image: url(images/rose-plants.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+}
+
+.card16:hover .tooltip {
+    display: block;
+}
+
+/*-----------------------CARD 16---------------------*/
+
+
+
+/*-----------------------CARD 17----------------------*/
+.card17 {
+    width: 300px;
+    height: 300px;
+    background-color: #a62121;
+    transition: transform 0.3s ease-in-out;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+
+.card17 svg {
+    background-image: url(images/Daisy-plants.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+
+.card17:hover .tooltip {
+    display: block;
+}
+
+/*-----------------------CARD 17---------------------*/
+
+
+/*-----------------------CARD 18----------------------*/
+.card18 {
+    width: 300px;
+    height: 300px;
+    background-color: #a62121;
+    transition: transform 0.3s ease-in-out;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+
+.card18 svg {
+    background-image: url(images/Cactus-plants.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+
+.card18:hover .tooltip {
+    display: block;
+}
+
+/*-----------------------CARD 18---------------------*/
+
+/*-----------------------CARD 19----------------------*/
+.card19 {
+    width: 300px;
+    height: 300px;
+    background-color: #a62121;
+    transition: transform 0.3s ease-in-out;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+
+.card19 svg {
+    background-image: url(images/daffodil-plants.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+
+.card19:hover .tooltip {
+    display: block;
+}
+
+/*-----------------------CARD 19---------------------*/
+
+
+
+/*-----------------------CARD 20----------------------*/
+.card20 {
+    width: 300px;
+    height: 300px;
+    background-color: #a62121;
+    transition: transform 0.3s ease-in-out;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+
+.card20 svg {
+    background-image: url(images/Fern-plants.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
+
+.card20:hover .tooltip {
+    display: block;
+}
+
+/*-----------------------CARD 20---------------------*/
+
+
+
+/*-----------------------CARD 21----------------------*/
+.card21 {
+    width: 300px;
+    height: 300px;
+    background-color: #a62121;
+    transition: transform 0.3s ease-in-out;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+
+.card21 svg {
+    background-image: url(images/ivy-plants.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+}
+
+.card21:hover .tooltip {
+    display: block;
+}
+
+/*-----------------------CARD 21--------------------*/
+
+
+/*-----------------------CARD 22----------------------*/
+.card22 {
+    width: 300px;
+    height: 300px;
+    background-color: #a62121;
+    transition: transform 0.3s ease-in-out;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+
+.card22 svg {
+    background-image: url(images/lavender-plants.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+
+.card22:hover .tooltip {
+    display: block;
+}
+
+/*-----------------------CARD 22--------------------*/
+
+
+
+
+/*-----------------------CARD 23----------------------*/
+.card23 {
+    width: 300px;
+    height: 300px;
+    background-color: #a62121;
+    transition: transform 0.3s ease-in-out;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+
+.card23 svg {
+    background-image: url(images/Lily-plants.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+
+.card23:hover .tooltip {
+    display: block;
+}
+
+/*-----------------------CARD 23--------------------*/
+
+
+/*-----------------------CARD 24----------------------*/
+.card24 {
+    width: 300px;
+    height: 300px;
+    background-color: #a62121;
+    transition: transform 0.3s ease-in-out;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+
+.card24 svg {
+    background-image: url(images/mushrooms-plants.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+
+.card24:hover .tooltip {
+    display: block;
+}
+
+/*-----------------------CARD 24--------------------*/
+
+
+
+/*-----------------------CARD 25----------------------*/
+.card25 {
+    width: 300px;
+    height: 300px;
+    background-color: chocolate;
+    transition: transform 0.3s ease-in-out;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+
+.card25 svg {
+    background-image: url(images/orchid-plants.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;
+}
+
+.card25:hover .tooltip {
+    display: block;
+}
+
+/*-----------------------CARD 25--------------------*/
+
+
+/*-----------------------CARD 26----------------------*/
+.card26 {
+    width: 300px;
+    height: 300px;
+    background-color: #a62121;
+    transition: transform 0.3s ease-in-out;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+
+.card26 svg {
+    background-image: url(images/Sunflower-plants.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+}
+
+.card26:hover .tooltip {
+    display: block;
+}
+
+/*-----------------------CARD 26--------------------*/
+
+/*-----------------------CARD 27---------------------*/
+.card27 {
+    width: 300px;
+    height: 300px;
+    background-color: #a62121;
+    transition: transform 0.3s ease-in-out;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+
+.card27 svg {
+    background-image: url(images/wheat-bugday-plants.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+}
+
+.card27:hover .tooltip {
+    display: block;
+}
+
+/*-----------------------CARD 27--------------------*/
+
+
+
+/*-----------------------CARD 28---------------------*/
+.card28 {
+    width: 300px;
+    height: 300px;
+    background-color: #a62121;
+    transition: transform 0.3s ease-in-out;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+
+.card28 svg {
+    background-image: url(images/Violet-plants.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 55%;
+}
+
+.card28:hover .tooltip {
+    display: block;
+}
+
+/*-----------------------CARD 28--------------------*/
+
+
+/*-----------------------CARD 29---------------------*/
+.card29 {
+    width: 300px;
+    height: 300px;
+    background-color: #a62121;
+    transition: transform 0.3s ease-in-out;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+
+.card29 svg {
+    background-image: url(images/tulip-plants.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 45%;
+}
+
+.card29:hover .tooltip {
+    display: block;
+}
+
+/*-----------------------CARD 29--------------------*/
+
+
+/*---------------------cards---------------------------*/

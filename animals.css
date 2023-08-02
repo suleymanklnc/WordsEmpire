@@ -1,0 +1,602 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+body::-webkit-scrollbar {
+    width: 20px;
+    /* width of the entire scrollbar */
+
+}
+
+body::-webkit-scrollbar-track {
+    background: #151418;
+    /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #151418;
+    /* color of the scroll thumb */
+    border-radius: 10px;
+    /* roundness of the scroll thumb */
+    border: 3px solid #151418;
+    /* creates padding around scroll thumb */
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+    background-color: #151418;
+
+
+}
+
+/*---------------------cards---------------------------*/
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.container h1{
+    display: flex;
+    color: white;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;    
+}
+
+
+.card {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 1rem;
+
+}
+
+.card .card1 {
+    background-image: url(images/bat1-animals.png);
+    transition: all 0.6s ease-in-out;
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: crimson;
+    border-radius: 10%;
+}
+
+.card .card2 {
+    background-image: url(images/beaver\ 1-animals.png);
+    transition: all 0.6s ease-in-out;
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: crimson;
+    border-radius: 10%;
+
+}
+
+.card .card3 {
+    background-image: url(images/camel1-animals.png);
+    transition: all 0.6s ease-in-out;
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: crimson;
+    border-radius: 10%;
+
+}
+
+
+
+.card .card4 {
+    background-image: url(images/carrot2-animals.png);
+    transition: all 0.6s ease-in-out;
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: crimson;
+    border-radius: 10%;
+
+}
+
+
+.card .card5 {
+    background-image: url(images/cat1-animals.png);
+    transition: all 0.6s ease-in-out;
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: crimson;
+    border-radius: 10%;
+
+}
+
+
+.card .card6 {
+    background-image: url(images/chicken2-animals.png);
+    transition: all 0.6s ease-in-out;
+    background-size: 35%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: crimson;
+    border-radius: 10%;
+
+}
+
+
+.card .card7 {
+    background-image: url(images/cow2-animals..png);
+    transition: all 0.6s ease-in-out;
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: crimson;
+    border-radius: 10%;
+
+}
+
+
+.card .card8 {
+    background-image: url(images/coyote1-animals.png);
+    transition: all 0.6s ease-in-out;
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: crimson;
+    border-radius: 10%;
+
+}
+
+
+.card .card9 {
+    background-image: url(images/crocodile2-animals.png);
+    transition: all 0.6s ease-in-out;
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: crimson;
+    border-radius: 10%;
+
+}
+
+
+.card .card10 {
+    background-image: url(images/deer1-animals.png);
+    transition: all 0.6s ease-in-out;
+    background-size: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: crimson;
+    border-radius: 10%;
+
+}
+
+
+.card .card11 {
+    background-image: url(images/dog1-animals.png);
+    transition: all 0.6s ease-in-out;
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: crimson;
+    border-radius: 10%;
+
+}
+
+
+.card .card12 {
+    background-image: url(images/dolphin1-animals.png);
+    transition: all 0.6s ease-in-out;
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: crimson;
+    border-radius: 10%;
+
+}
+
+
+.card .card13 {
+    background-image: url(images/donkey1-animals.png);
+    transition: all 0.6s ease-in-out;
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: crimson;
+    border-radius: 10%;
+
+}
+
+
+.card .card14 {
+    background-image: url(images/duck2-animals.png);
+    transition: all 0.6s ease-in-out;
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: crimson;
+    border-radius: 10%;
+
+}
+
+
+.card .card15 {
+    background-image: url(images/eagle1-animals.png);
+    transition: all 0.6s ease-in-out;
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: crimson;
+    border-radius: 10%;
+
+}
+
+
+.card .card16 {
+    background-image: url(images/elephant1-animals.png);
+    transition: all 0.6s ease-in-out;
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: crimson;
+    border-radius: 10%;
+
+}
+
+
+.card .card17 {
+    background-image: url(images/fox2-animals.png);
+    transition: all 0.6s ease-in-out;
+    background-size: 45%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: crimson;
+    border-radius: 10%;
+
+}
+
+.card .card18 {
+    background-image: url(images/frog2-animals.png);
+    transition: all 0.6s ease-in-out;
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: crimson;
+    border-radius: 10%;
+
+}
+
+
+.card .card19 {
+    background-image: url(images/goat2-animals.png);
+    transition: all 0.6s ease-in-out;
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: crimson;
+    border-radius: 10%;
+
+}
+
+
+.card .card20 {
+    background-image: url(images/hedgehog2-animals.png);
+    transition: all 0.6s ease-in-out;
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: crimson;
+    border-radius: 10%;
+
+}
+
+
+.card .card21 {
+    background-image: url(images/horse2-animals.png);
+    transition: all 0.6s ease-in-out;
+    background-size: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: crimson;
+    border-radius: 10%;
+
+}
+
+
+.card .card22 {
+    background-image: url(images/lion3-animals.png);
+    transition: all 0.6s ease-in-out;
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: crimson;
+    border-radius: 10%;
+
+}
+
+
+.card .card23 {
+    background-image: url(images/mouse1-animals.png);
+    transition: all 0.6s ease-in-out;
+    background-size: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: crimson;
+    border-radius: 10%;
+
+}
+
+
+.card .card24 {
+    background-image: url(images/octopus2-animals.png);
+    transition: all 0.6s ease-in-out;
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: crimson;
+    border-radius: 10%;
+
+}
+
+.card .card25 {
+    background-image: url(images/panther2-animals.png);
+    transition: all 0.6s ease-in-out;
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: crimson;
+    border-radius: 10%;
+
+}
+
+.card .card26 {
+    background-image: url(images/parrot2-animals.png);
+    transition: all 0.6s ease-in-out;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: crimson;
+    border-radius: 10%;
+
+}
+
+
+.card .card27 {
+    background-image: url(images/pig1-animals.png);
+    transition: all 0.6s ease-in-out;
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: crimson;
+    border-radius: 10%;
+
+}
+
+.card .card28 {
+    background-image: url(images/seagull1-animals.png);
+    transition: all 0.6s ease-in-out;
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: crimson;
+    border-radius: 10%;
+
+}
+
+.card .card29 {
+    background-image: url(images/shark2-animals.png);
+    transition: all 0.6s ease-in-out;
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: crimson;
+    border-radius: 10%;
+
+}
+
+
+.card .card30 {
+    background-image: url(images/sheep1-animals.png);
+    transition: all 0.6s ease-in-out;
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: crimson;
+    border-radius: 10%;
+
+}
+
+
+.card .card31 {
+    background-image: url(images/snail2-animals.png);
+    transition: all 0.6s ease-in-out;
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: crimson;
+    border-radius: 10%;
+
+}
+
+
+.card .card32 {
+    background-image: url(images/snake2-animals.png);
+    transition: all 0.6s ease-in-out;
+    background-size: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: crimson;
+    border-radius: 10%;
+
+}
+
+
+.card .card33 {
+    background-image: url(images/squirrel1-animals.png);
+    transition: all 0.6s ease-in-out;
+    background-size: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: crimson;
+    border-radius: 10%;
+
+}
+
+.card .card34 {
+    background-image: url(images/swan2-animals.png);
+    transition: all 0.6s ease-in-out;
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: crimson;
+    border-radius: 10%;
+
+}
+
+.card .card35 {
+    background-image: url(images/tiger1-animals.png);
+    transition: all 0.6s ease-in-out;
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: crimson;
+    border-radius: 10%;
+
+}
+
+
+
+.card .card36 {
+    background-image: url(images/turkey1-animals.png);
+    transition: all 0.6s ease-in-out;
+    background-size: 45%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: crimson;
+    border-radius: 10%;
+
+}
+
+.card .card37 {
+    background-image: url(images/turtle1-animals.png);
+    transition: all 0.6s ease-in-out;
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: crimson;
+    border-radius: 10%;
+
+}
+
+.card .card38 {
+    background-image: url(images/whale2-animals.png);
+    transition: all 0.6s ease-in-out;
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: crimson;
+    border-radius: 10%;
+
+}
+
+.card .card39 {
+    background-image: url(images/wolf2-animals.png);
+    transition: all 0.6s ease-in-out;
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: crimson;
+    border-radius: 10%;
+
+}
+
+
+
+.card:hover svg {
+    scale: 0;
+    transform: rotate(-45deg);
+}
+
+.card:hover {
+    transform: rotate(deg) scale(0);
+}
+
+.card__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #24caac;
+    opacity: 0;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.card:hover .card__content {
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 1;
+    transition: all .4s ease-in-out;
+}
+
+.card__title {
+    text-align: center;
+    margin: 0;
+    color: aliceblue;
+    font-weight: 800;
+    font-size: 30px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+
+}
+
+.card__title:hover {
+    color: royalblue;
+}
+
+.card__description {
+    margin: 10px 0 0;
+    font-size: 18px;
+    color: white;
+    line-height: 1;
+}
+
+
+@media screen and (max-width: 800px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow-x: hidden;
+    }
+
+    .card {
+        margin: 0;
+    }
+}
+
+
+/*---------------------cards---------------------------*/
