@@ -1,0 +1,82 @@
+form.login-form{
+    width: 30%;
+    height: auto;
+}
+  
+  .btn {
+    padding: 8px 20px;
+    border-radius: 0;
+    overflow: hidden;
+  }
+  .btn::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(120deg, transparent, var(--danger-color), transparent);
+    transform: translateX(-100%);
+    transition: 1s;
+  }
+  .btn:hover {
+    background: transparent;
+    box-shadow: 0 0 20px 10px rgba(80, 179, 15, 0.5);
+  }
+  .btn:hover::before {
+    transform: translateX(100%);
+  }
+  
+  .form-input-material {
+    --input-default-border-color: greenyellow;
+    --input-border-bottom-color: greenyellow;
+  }
+  .form-input-material input {
+    color: greenyellow
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 40px;
+    color: greenyellow;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 30px;
+    box-shadow: 0 0.4px 0.4px rgba(128, 128, 128, 0.109), 0 1px 1px rgba(128, 128, 128, 0.155), 0 2.1px 2.1px rgba(128, 128, 128, 0.195), 0 4.4px 4.4px rgba(128, 128, 128, 0.241), 0 12px 12px rgba(128, 128, 128, 0.35);
+  margin: 150px auto 0 auto;
+  }
+  .login-form h1 {
+    margin: 0 0 24px 0;
+  }
+  .login-form .form-input-material {
+    margin: 30px auto;
+  }
+  .login-form .btn {
+    width: 45%;
+    margin: 60px 0 9px 0;
+    text-align: center;
+  }
+  body{
+    background-image: url(https://cdn.create.vista.com/api/media/small/255117428/stock-photo-monochrome-texture-with-white-and) ;
+    overflow:hidden;
+  }
+
+
+@media only screen and (max-width: 950px){
+
+    form.login-form{
+      margin:1rem;
+      width:100%;
+    
+}   
+
+ .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+
+
+}

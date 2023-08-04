@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!--TÜRKÇE kARAkTER DESTEĞİ-->
+    <meta charset="UTF-8">
+    <!--sitenin içeriğini belirtir-->
+    <meta name="description" content="English learning, gruplandırılmış şekilde öğrenme sayesinde
+ sitemizde daha hızlı öğrenebilirsiniz...">
+    <!--sitenin arama motorlarında bulunması için anahtar kelimeler yaz.-->
+    <meta name="keywords"
+        content="English,İngilizce öğreniyorum, ingilizce kelimeler,ingilizce kelime türleri,ingilizce">
+    <!--kim tarafından kodlandığı , yazıldığı yazılır buraya-->
+    <meta name="author" content="Süleyman KILINÇ">
+    <!--sayfanın mobil uyumlu görünümlü olması için kullanılır.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--site içeriğinin ne kadar zamanda bir güncellendiğini arama motoruna bildirir.-->
+    <meta name="revisit-after" content="7 days" />
+    <!--sitenin varsayılan dilini belirtiriz-->
+    <meta http-equiv="content-language" content="en">
+    <!--site içeriğinin ne zaman zaman aşımına uğrayacağını arama motoruna söyleriz haber veririz-->
+    <meta name="expires" content="Sun.1 jan. 2025">
+    <!--sitenin telif hakları konusunda bilgi verir-->
+    <meta name="copyright"
+        content="bu sitenin telif hakları saklıdır ve sitenin kopyalanaıp saklanması yasaktır cezası idamdır.">
+    <!--sayfanın yetişkinlik düzeyini belirtiriz-->
+    <meta name="Rating" content="everyone">
+    <!--sayfanın belirli bir süre içerisinde f5 atmasını sağlar yeniler yani-->
+    <meta http-equiv="refresh" content="3600">
+    <!--sitemizin çeviriye kapalı olması için kullanırız-->
+    <meta name="google" content="notranslate">
+    <!--sayfa başlığı-->
+    <title>Words Empire log-in</title>
+    <!--ikon eklemek için kullanılır-->
+    <link rel="shortcut icon" href="/iniglizce sayfam/anasayfa/images/favicon-32x32.png" type="image/x-icon" />
+    <!--css linkleri-->
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="/anasayfa/reset.css">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/alphardex/aqua.css@master/dist/aqua.min.css'>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+
+
+    <!-- <form id="kayitForm" class="kayıt">
+            <table border="1" cellpadding="0" align="center" cellspacing="0">
+                <tr>
+                    <td><label class="yazirengi">Kullanıcı adı &nbsp;</label></td>
+                    <td><input type="text" name="ad" id="ad"></td>
+                </tr>
+                <tr>
+                    <td><label class="yazirengi">Şifre</label></td>
+                    <td ><input type="password" id="sifre" name="sifre"></td>
+
+                </tr>
+
+
+
+                <button type="button" onclick="formkontrol();" value="Onayla" class="onayla">Onayla</button>
+
+
+
+            </table>
+        </form> -->
+
+    <form class="login-form" action="javascript:void(0);" id="kayitForm">
+        <h1>Giriş</h1>
+        <table class="form-input-material">
+            <tr  class="form-input-material">
+                <label type="text" name="username" id="username" autocomplete="off"
+                    class="form-control-material" required />
+                <input for="username" name="ad" id="ad" placeholder="USERNAME"
+                    style="font:bold tahoma;  color: blue; font-weight: bolder; font-size: 20px;"></input>
+            </tr>
+            <tr class="form-input-material">
+                <label type="password" name="password" id="password"  autocomplete="off"
+                    class="form-control-material" required  />
+                <input id="sifre" name="sifre" for="password" type="password" placeholder="ŞİFRE "
+                    style="font:bold tahoma ; margin-top: 20px; color: blue; font-weight: bolder; font-size: 20px;"></input>
+            </tr>
+            <tr>
+                <label type="button" class="btn btn-success btn-ghost" onclick="formkontrol();"
+                    value="">Giriş</label>
+            </tr>
+        </table>
+    </form>
+
+
+
+
+    <script src="login.js"></script>
+
+</body>
+
+</html>
